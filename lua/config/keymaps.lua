@@ -19,4 +19,13 @@ vim.keymap.set(
   { desc = "Wrap Composable" }
 )
 
-vim.keymap.set("n", "<leader>md", "gdwwwwwwgdgd", { desc = "Go To Definition Alias" })
+vim.keymap.set("n", "<leader>mj", "<Esc>gdwwwwwwgdgd", { desc = "Go To Definition Alias" })
+
+vim.keymap.set(
+  "n",
+  "<leader>mp",
+  "oconst<Space>{}<Space><Right>=<Space>toRefs(props)<Esc>0wa",
+  { desc = "Props to Refs" }
+)
+
+vim.keymap.set("n", "<leader>ma", "<Esc>Iconst<Space>P<S-BS>{}<Space>=<Space><Esc>bbbci}", { desc = "Destruct" })
