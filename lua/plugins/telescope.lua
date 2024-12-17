@@ -20,10 +20,10 @@ function telescope_image_preview()
 
   local delete_image = function()
     if not image then
-      return
-    end
+        return
+      end
 
-    image:clear()
+      image:clear()
 
     is_image_preview = false
   end
