@@ -1,7 +1,7 @@
 return {
-  "olimorris/codecompanion.nvim",
-  dependencies = {
-    "nvim-lua/plenary.nvim",
-    "nvim-treesitter/nvim-treesitter",
+  "David-Kunz/gen.nvim",
+  opts = {
+    model = "deepseek-r1:8b",
   },
+  enabled = false,
 }

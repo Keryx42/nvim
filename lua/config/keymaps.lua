@@ -15,7 +15,7 @@ vim.keymap.set(
 vim.keymap.set(
   "n",
   "<leader>mc",
-  "A()<Esc>Iconst<Space>{}<Space>=<Space><Esc>bba<Space><Esc>i",
+  "<Esc>Iconst<Space>{}<Space>=<Space><Esc>bba<Space><Esc>i",
   { desc = "Wrap Composable" }
 )
 
