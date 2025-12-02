@@ -13,7 +13,7 @@ return {
     config = true,
     keys = {
 
-      { "<leader>ng", "<cmd> Neogit <CR>", desc = "NeoGit" },
+      { "<leader>gu", "<cmd> Neogit <CR>", desc = "NeoGit" },
     },
   },
 }
